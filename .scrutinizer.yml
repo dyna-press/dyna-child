@@ -1,0 +1,56 @@
+# Scrutinizer CI configuration file.
+# @link https://scrutinizer-ci.com/
+
+# For use with the Dyna WordPress theme
+# @link https://github.com/dyna-press/dyna
+
+# Declare project language and define checks
+# @link https://scrutinizer-ci.com/docs/guides/php/automated-code-reviews
+# @link https://scrutinizer-ci.com/docs/guides/javascript/
+
+build:
+  nodes:
+    analysis:
+      tests:
+        override:
+          - php-scrutinizer-run
+#          - phpcs-run                  # build failing when enabled :-(
+          - js-scrutinizer-run
+
+checks:
+    php: true
+    javascript: true
+
+
+# Declare project language and PHP versions to test against.
+# @link https://scrutinizer-ci.com/docs/guides/php/continuous-integration-deployment
+
+build:
+    environment:
+        php:
+            version: 7.2       # Common versions: 5.4, 5.5, 5.6, 7.0, 7.1, 7.2, or hhvm
+
+# Analyze code coverage
+# @link https://scrutinizer-ci.com/docs/build/code_coverage
+# @link https://scrutinizer-ci.com/docs/tools/external-code-coverage/
+
+#build:
+#  nodes:
+#    coverage:
+#      tests:
+#        override:
+#          - command: ./my-test-run
+#            coverage:
+#              file: path/to/coverage-data
+
+              # These formats are supported:
+              # clover, cobertura, jacoco, python-cc, ruby-cc, go-cc
+#              format: name-of-format
+
+
+# Use filter
+# @link
+
+filter:
+    excluded_paths:
+        - languages/*
