@@ -5,3 +5,13 @@
 # Dyna-Child-Theme
 
 This is a starter child theme for Dyna. Visit the main repo here: https://github.com/dyna-press/dyna
+
+This is work in progress, but you may start developing with Dyna and Dyna Child. 
+
+Install the Dyna Theme, check the white page and install Dyna Child, see how the site looks inverted. There are only a few styles that do this job. Check style.css to do your own changes.
+
+Check functions.php. We left some code there to help you loading own CSS and JS.
+
+Check index.php. There is a sidebar loaded before footer. Change or delete it, when it hurts your eyes.
+
+Happy Hacking ;-)
