@@ -15,9 +15,7 @@
 get_header(); ?>
 
 	<main id="primary" class="site-main">
-
-        <h1>Dyna Child is active</h1>
-
+        
 	<?php
 	if ( have_posts() ) :
 
