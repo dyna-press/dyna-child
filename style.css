@@ -1,5 +1,5 @@
 /*!
-Theme Name: Dyna
+Theme Name: Dyna Custom
 Theme URI: https://dyna.press
 Author: Alf Drollinger
 Author URI: https://alf-drollinger.com
@@ -22,4 +22,18 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 --------------------------------------------------------------*/
 body {
 	margin: 20px;
+	color: #a2aab2;
+	background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #a2aab2;
+}
+
+a {
+	color: #a2aab2;
+}
+
+a:visited {
+	color: #bee5eb;
 }
