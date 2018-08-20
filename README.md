@@ -1,6 +1,6 @@
 <img src="https://github.com/dyna-press/dyna/raw/master/assets/logo/logo250.png" alt="Dyna Logo" width="150px" height="57px"/>
 
-# Dyna-Child-Theme
+# Dyna Child Theme
 
 [![Travis Build Status](https://travis-ci.com/dyna-press/dyna-child.svg?branch=master)](https://travis-ci.com/dyna-press/dyna-child) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dyna-press/dyna-child/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dyna-press/dyna-child/?branch=master) [![Code Intelligence Status](https://scrutinizer-ci.com/g/dyna-press/dyna-child/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dynapress/Dyna-Theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -23,7 +23,7 @@ Happy Hacking ;-)
 
 <hr/>
 <p align="center">
-Copyright 2018 - Dyna Theme Framework - All rights reserved
+Copyright 2018 Dyna Theme Framework
 <br/>
 <br/>
 <a href="http://dyna.press">
